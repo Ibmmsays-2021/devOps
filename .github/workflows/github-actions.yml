@@ -78,7 +78,7 @@ jobs:
       - name: Upload build artifacts for GitHub Pages
         uses: actions/upload-pages-artifact@v3
         with:
-          path: './dist/dev-ops'  # Update with the correct build output path
+          path: './dist/devOps'  # Update with the correct build output path
 
       - name: Deploy to GitHub Pages
         id: deployment
