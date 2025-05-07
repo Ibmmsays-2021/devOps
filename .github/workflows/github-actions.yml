@@ -70,11 +70,6 @@ jobs:
       - name: Build Angular app for production
         run: npm run build --prod
 
-      - name: Configure GitHub Pages
-        uses: actions/configure-pages@v4
-        with:
-          static_site_generator: angular
-
       - name: Upload build artifacts for GitHub Pages
         uses: actions/upload-pages-artifact@v3
         with:
